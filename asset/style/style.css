@@ -159,6 +159,7 @@ nav ul li {
 
 .testimony-card {
   width: 100%;
+  min-height: 300px;
 }
 
 .testimony-card img {
@@ -246,8 +247,6 @@ footer h6 {
   margin-bottom: 20px;
 }
 
-.copy-link-container {
-}
 .copy-link-logo-wrapper {
   display: flex;
   flex-wrap: wrap;
@@ -283,10 +282,13 @@ button.copy-link {
   margin-right: 20px;
   padding: 10px 20px;
 }
-.about-company{
-	border: 1px solid black;
-	padding: 40px;
+.about-company {
+  border: 1px solid black;
+  padding: 40px;
 }
-.about-company-profile{	
-	
+.testimony-card-img {
+  object-fit: cover;
+}
+.lowongan-card { 
+  cursor: pointer;
 }

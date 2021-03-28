@@ -53,7 +53,7 @@ function clickCard() {
 }
 function createHtml(img, title, subtitle, lokasi, gaji, waktu) {
     return `
-    <div class="col-12 col-sm-6 col-lg-4 rounded mb-4" onclick="clickCard()">
+    <div class="lowongan-card col-12 col-sm-6 col-lg-4 rounded mb-4" onclick="clickCard()">
         <div class="card w-100">
             <div class="card-body">
                 <div class="row mb-3">
